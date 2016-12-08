@@ -12,6 +12,12 @@
 		3AE62DEF1DCC7D5B00078B66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AE62DEE1DCC7D5B00078B66 /* Assets.xcassets */; };
 		3AE62DF21DCC7D5B00078B66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE62DF01DCC7D5B00078B66 /* LaunchScreen.storyboard */; };
 		3AE62E001DCC7E9B00078B66 /* SingleSerialLocaitonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE62DFF1DCC7E9B00078B66 /* SingleSerialLocaitonViewController.m */; };
+		52F204D2616D7B6C4A948542 /* libPods-OnceContinueLocation-swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E8B707C10A3BE226ABB325F /* libPods-OnceContinueLocation-swift.a */; };
+		6AADBBED1DF92F0E00FCD2F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AADBBEC1DF92F0E00FCD2F0 /* AppDelegate.swift */; };
+		6AADBBEF1DF92F0E00FCD2F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AADBBEE1DF92F0E00FCD2F0 /* ViewController.swift */; };
+		6AADBBF21DF92F0E00FCD2F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AADBBF01DF92F0E00FCD2F0 /* Main.storyboard */; };
+		6AADBBF41DF92F0E00FCD2F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AADBBF31DF92F0E00FCD2F0 /* Assets.xcassets */; };
+		6AADBBF71DF92F0E00FCD2F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AADBBF51DF92F0E00FCD2F0 /* LaunchScreen.storyboard */; };
 		EE6A8B78CD1617A5C89122DE /* libPods-OnceContinueLocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6B5489C77674D64101A612 /* libPods-OnceContinueLocation.a */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +34,18 @@
 		3AE62DFE1DCC7E9B00078B66 /* SingleSerialLocaitonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleSerialLocaitonViewController.h; sourceTree = "<group>"; };
 		3AE62DFF1DCC7E9B00078B66 /* SingleSerialLocaitonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleSerialLocaitonViewController.m; sourceTree = "<group>"; };
 		4DF60F73878B4BD47A38B724 /* Pods-OnceContinueLocation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnceContinueLocation.release.xcconfig"; path = "Pods/Target Support Files/Pods-OnceContinueLocation/Pods-OnceContinueLocation.release.xcconfig"; sourceTree = "<group>"; };
+		4E8B707C10A3BE226ABB325F /* libPods-OnceContinueLocation-swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OnceContinueLocation-swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BEE4AD3CFF7B9E7295F44F9 /* Pods-OnceContinueLocation-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnceContinueLocation-swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OnceContinueLocation-swift/Pods-OnceContinueLocation-swift.debug.xcconfig"; sourceTree = "<group>"; };
+		6AADBBEA1DF92F0E00FCD2F0 /* OnceContinueLocation-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OnceContinueLocation-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AADBBEC1DF92F0E00FCD2F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6AADBBEE1DF92F0E00FCD2F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6AADBBF11DF92F0E00FCD2F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6AADBBF31DF92F0E00FCD2F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6AADBBF61DF92F0E00FCD2F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6AADBBF81DF92F0E00FCD2F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AADBBFC1DF92F5E00FCD2F0 /* Swift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Swift-Bridging-Header.h"; sourceTree = "<group>"; };
 		AAF583F94C812EC480CFE735 /* Pods-OnceContinueLocation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnceContinueLocation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OnceContinueLocation/Pods-OnceContinueLocation.debug.xcconfig"; sourceTree = "<group>"; };
+		C1E36383A790390F74B61885 /* Pods-OnceContinueLocation-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnceContinueLocation-swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-OnceContinueLocation-swift/Pods-OnceContinueLocation-swift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +57,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6AADBBE71DF92F0E00FCD2F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F204D2616D7B6C4A948542 /* libPods-OnceContinueLocation-swift.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -47,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				3AE62DE11DCC7D5A00078B66 /* OnceContinueLocation */,
+				6AADBBEB1DF92F0E00FCD2F0 /* OnceContinueLocation-swift */,
 				3AE62DE01DCC7D5A00078B66 /* Products */,
 				69994474E1D663B53591F8BA /* Pods */,
 				4B02A2E9289EA8B99DB5DDFD /* Frameworks */,
@@ -57,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				3AE62DDF1DCC7D5A00078B66 /* OnceContinueLocation.app */,
+				6AADBBEA1DF92F0E00FCD2F0 /* OnceContinueLocation-swift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				1A6B5489C77674D64101A612 /* libPods-OnceContinueLocation.a */,
+				4E8B707C10A3BE226ABB325F /* libPods-OnceContinueLocation-swift.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -106,8 +134,24 @@
 			children = (
 				AAF583F94C812EC480CFE735 /* Pods-OnceContinueLocation.debug.xcconfig */,
 				4DF60F73878B4BD47A38B724 /* Pods-OnceContinueLocation.release.xcconfig */,
+				5BEE4AD3CFF7B9E7295F44F9 /* Pods-OnceContinueLocation-swift.debug.xcconfig */,
+				C1E36383A790390F74B61885 /* Pods-OnceContinueLocation-swift.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		6AADBBEB1DF92F0E00FCD2F0 /* OnceContinueLocation-swift */ = {
+			isa = PBXGroup;
+			children = (
+				6AADBBEC1DF92F0E00FCD2F0 /* AppDelegate.swift */,
+				6AADBBEE1DF92F0E00FCD2F0 /* ViewController.swift */,
+				6AADBBFC1DF92F5E00FCD2F0 /* Swift-Bridging-Header.h */,
+				6AADBBF01DF92F0E00FCD2F0 /* Main.storyboard */,
+				6AADBBF31DF92F0E00FCD2F0 /* Assets.xcassets */,
+				6AADBBF51DF92F0E00FCD2F0 /* LaunchScreen.storyboard */,
+				6AADBBF81DF92F0E00FCD2F0 /* Info.plist */,
+			);
+			path = "OnceContinueLocation-swift";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,17 +177,48 @@
 			productReference = 3AE62DDF1DCC7D5A00078B66 /* OnceContinueLocation.app */;
 			productType = "com.apple.product-type.application";
 		};
+		6AADBBE91DF92F0E00FCD2F0 /* OnceContinueLocation-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AADBBFB1DF92F0E00FCD2F0 /* Build configuration list for PBXNativeTarget "OnceContinueLocation-swift" */;
+			buildPhases = (
+				85BBADFCF978B23B9BFE7FA0 /* [CP] Check Pods Manifest.lock */,
+				6AADBBE61DF92F0E00FCD2F0 /* Sources */,
+				6AADBBE71DF92F0E00FCD2F0 /* Frameworks */,
+				6AADBBE81DF92F0E00FCD2F0 /* Resources */,
+				BA9A8735DEDF866102F21679 /* [CP] Embed Pods Frameworks */,
+				AC2ABA31DAF03DEDC76E4904 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OnceContinueLocation-swift";
+			productName = "OnceContinueLocation-swift";
+			productReference = 6AADBBEA1DF92F0E00FCD2F0 /* OnceContinueLocation-swift.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		3AE62DD71DCC7D5A00078B66 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = AutoNavi;
 				TargetAttributes = {
 					3AE62DDE1DCC7D5A00078B66 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = YMJ372W38W;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					6AADBBE91DF92F0E00FCD2F0 = {
+						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = YMJ372W38W;
 						ProvisioningStyle = Manual;
 						SystemCapabilities = {
@@ -168,6 +243,7 @@
 			projectRoot = "";
 			targets = (
 				3AE62DDE1DCC7D5A00078B66 /* OnceContinueLocation */,
+				6AADBBE91DF92F0E00FCD2F0 /* OnceContinueLocation-swift */,
 			);
 		};
 /* End PBXProject section */
@@ -179,6 +255,16 @@
 			files = (
 				3AE62DF21DCC7D5B00078B66 /* LaunchScreen.storyboard in Resources */,
 				3AE62DEF1DCC7D5B00078B66 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AADBBE81DF92F0E00FCD2F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AADBBF71DF92F0E00FCD2F0 /* LaunchScreen.storyboard in Resources */,
+				6AADBBF41DF92F0E00FCD2F0 /* Assets.xcassets in Resources */,
+				6AADBBF21DF92F0E00FCD2F0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +298,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		6318765A97B91CE7880C924F /* [CP] Embed Pods Frameworks */ = {
@@ -230,6 +316,51 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OnceContinueLocation/Pods-OnceContinueLocation-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		85BBADFCF978B23B9BFE7FA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AC2ABA31DAF03DEDC76E4904 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OnceContinueLocation-swift/Pods-OnceContinueLocation-swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA9A8735DEDF866102F21679 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OnceContinueLocation-swift/Pods-OnceContinueLocation-swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -243,6 +374,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6AADBBE61DF92F0E00FCD2F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AADBBEF1DF92F0E00FCD2F0 /* ViewController.swift in Sources */,
+				6AADBBED1DF92F0E00FCD2F0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -250,6 +390,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				3AE62DF11DCC7D5B00078B66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6AADBBF01DF92F0E00FCD2F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AADBBF11DF92F0E00FCD2F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6AADBBF51DF92F0E00FCD2F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AADBBF61DF92F0E00FCD2F0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -366,12 +522,57 @@
 			baseConfigurationReference = 4DF60F73878B4BD47A38B724 /* Pods-OnceContinueLocation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = YMJ372W38W;
 				INFOPLIST_FILE = OnceContinueLocation/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.autonavi.OnceContinueLocation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a892512d-fe94-4702-b716-0b66880b936d";
+				PROVISIONING_PROFILE_SPECIFIER = openPlatformInhouse;
+			};
+			name = Release;
+		};
+		6AADBBF91DF92F0E00FCD2F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BEE4AD3CFF7B9E7295F44F9 /* Pods-OnceContinueLocation-swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YMJ372W38W;
+				INFOPLIST_FILE = "OnceContinueLocation-swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonavi.OnceContinueLocation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d723e77c-6c92-4e6a-98d7-8717d0b88b87";
+				PROVISIONING_PROFILE_SPECIFIER = openPlatform_development;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "./OnceContinueLocation-swift/Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6AADBBFA1DF92F0E00FCD2F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1E36383A790390F74B61885 /* Pods-OnceContinueLocation-swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = YMJ372W38W;
+				INFOPLIST_FILE = "OnceContinueLocation-swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonavi.OnceContinueLocation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a892512d-fe94-4702-b716-0b66880b936d";
+				PROVISIONING_PROFILE_SPECIFIER = openPlatformInhouse;
+				SWIFT_OBJC_BRIDGING_HEADER = "./OnceContinueLocation-swift/Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -392,6 +593,15 @@
 			buildConfigurations = (
 				3AE62DF71DCC7D5B00078B66 /* Debug */,
 				3AE62DF81DCC7D5B00078B66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AADBBFB1DF92F0E00FCD2F0 /* Build configuration list for PBXNativeTarget "OnceContinueLocation-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AADBBF91DF92F0E00FCD2F0 /* Debug */,
+				6AADBBFA1DF92F0E00FCD2F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
