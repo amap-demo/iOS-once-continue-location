@@ -15,6 +15,8 @@
 
 ## 核心难点 ##
 
+`Objective-C`
+
 ```
 /* 单次定位. */
 - (void)initCompleteBlock
@@ -39,11 +41,9 @@
     };
 }
 
-//进行单次定位
+/* 进行单次定位 */
 [self.locationManager requestLocationWithReGeocode:YES completionBlock:self.completionBlock];
-```
 
-```
 /* 连续定位回调. */
 - (void)amapLocationManager:(AMapLocationManager *)manager didUpdateLocation:(CLLocation *)location reGeocode:(AMapLocationReGeocode *)reGeocode
 {
@@ -54,4 +54,33 @@
     
     [self updateLabelTextWithLocation:location regeocode:reGeocode serial:YES];
 }
+```
+
+`Swift`
+```
+/* 单次定位. */
+func configCompletionBlock() {
+        self.completionBlock = { [weak self] (location, regeo, error) -> Void in
+            if error != nil {
+                print("locError: %@", error!.localizedDescription)
+                self?.singleLocInfoLabel.text = String(format: "locError: %@", error!.localizedDescription)
+                return
+            }
+            
+            if location != nil {
+                self?.updateLabelWithLocation(location, regeocode: regeo, isSerial: false)
+            }
+        }
+}
+
+/* 连续定位回调. */
+func amapLocationManager(_ manager: AMapLocationManager!, didUpdate location: CLLocation!, reGeocode: AMapLocationReGeocode!) {
+        print("Location:\(location)")
+        
+        self.locateCount += 1
+        updateLabelWithLocation(location, regeocode: reGeocode, isSerial: true)
+        
+}
+
+
 ```
