@@ -62,3 +62,7 @@ iOSInjectionProject/
 
 #
 *.xcworkspace
+
+# test
+Result/
+Pruducts/
